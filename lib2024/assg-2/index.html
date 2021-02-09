@@ -14,15 +14,19 @@
 	<section id="table-section" class="main-section">
 		 			<h2>Employee List</h2>
 		 			<table border="1">
+		 				<thead>
   <tr>
   		<th>Id</th>
 		 <th>Name</th>
 		 	<th>email</th>
 		 </tr>
+		</thead>
+		 <!--I used html formatting to center my text in the table instead of css-->
 		 		<tr><td><center>1</center></td>
 		 			<td><center>John</center></td>
 		 			<td><center>john@fakemail.com</center></td>
-		 			</tr><td><center>2</center></td>
+		 			</tr>
+		 			<tr><td><center>2</center></td>
 		 				<td><center>sam</center></td>
 		 				<td><center>sam@fakemail.com</center></td>
 		 				</tr>
@@ -49,6 +53,7 @@
 		 		<section id="images" class="main-section">
 		 				<h2>Animals</h2>
 		 				<figure>
+		 					<!-- the img tag is used to create an image in a document -->
 					<img src="img/elephant.jpg" alt="Image 1 in figure" width="300" height="200">
 					<figcaption>This is an Elephant.</figcaption>
 				</figure>
@@ -75,6 +80,31 @@
             		<p>ampersand : &#38;</p>
             		<p>Pound : &#163;</p>
             		<p>Copyright : &#169;</p>
-            	</article>
             </section>
+		<section id="special-tags" class="main-section">
+			<h2>Special Tags :</h2>
+				<article id="st-dl" class="special-tag">
+            		<dl> 
+            			<!-- dt is for the Term  -->
+            			<dt>Coffee</dt>
+            			<dd>- black hot drink</dd>
+            			<dt>Milk</dt>
+            			<dd>- white cold drink</dd>
+            		</dl>
+            	</article>
+            		<article id="st-abbr" class="special-tag">
+            	<p><abbr title="Hypertext Markup Language">HTML</abbr></p>
+            	<p><abbr title="Cascading Style Sheets">CSS</abbr></p>
+            </article>
+            <article class="special-tag" id="details">
+					<details> 
+				       <summary>What is a mobile Phone?</summary>
+				       <p>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving a telephone service area.</p>
+					</details>
+				</article>
+			</section>
+			<section>
+				<h2>Hidden Comment:</h2>
+					<!-- This comment is hidden -->
+			</section>
 
