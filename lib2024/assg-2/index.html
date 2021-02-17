@@ -12,77 +12,78 @@
 	</header>
 	<!-- this is the beginning of a table -->
 	<section id="table-section" class="main-section">
-		 			<h2>Employee List</h2>
-		 			<table border="1">
-		 				<thead>
+		 <h2>Employee List</h2>
+		 	<table border="1">
+		 		<thead>
 		 					<!-- tr defines a row in a table, th defines a table header -->
-  <tr>
-  		<th>Id</th>
-		 <th>Name</th>
-		 	<th>email</th>
-		 </tr>
-		</thead>
-		 <!--I used html formatting to center my text in the table instead of css-->
-		 		<tr><td><center>1</center></td>
-		 			<td><center>John</center></td>
-		 			<td><center>john@fakemail.com</center></td>
+ 					 <tr>
+  						<th>Id</th>
+		 				<th>Name</th>
+		 				<th>email</th>
 		 			</tr>
-		 			<tr><td><center>2</center></td>
+				</thead>
+		 <!--I used html formatting to center my text in the table instead of css-->
+		 		<tbody>
+		 			<tr>
+		 				<td><center>1</center></td>
+		 				<td><center>John</center></td>
+		 				<td><center>john@fakemail.com</center></td>
+		 			</tr>
+		 			<tr>
+		 				<td><center>2</center></td>
 		 				<td><center>sam</center></td>
 		 				<td><center>sam@fakemail.com</center></td>
-		 				</tr>
-		 					<tr>
-		 						<td><center>1</center></td>
-		 						<td><center>Bob</center></td>
-		 						<td><center>bob@fakemail.com</center></td>
-		 					</tr>
-		 					<tr>
-		 						<td><center>1</center></td>
-		 						<td><center>Jack</center></td>
-		 						<td><center>jack@fakemail.com</center></td>
-		 					</tr>
-		 					<tr>
-		 						<td><center>1</center></td>
-		 						<td><center>rob</center></td>
-		 						<td><center>Rob@fakemail.com</center></td>
-		 					</tr>
-		 					<tr>
-		 						<td colspan="3">All of the above are Division Heads</td>
-		 					</tr>
-		 			</table>
-		 		</section>
-		 		<section id="images" class="main-section">
-		 				<h2>Animals</h2>
-		 				<figure>
-		 					<!-- the img tag is used to create an image in a document -->
-					<img src="img/elephant.jpg" alt="Image 1 in figure" width="300" height="200">
-					<figcaption>This is an Elephant.</figcaption>
-				</figure>
-				<figure>
-					<img src="img/lion.jpg" alt="Image 2 in figure" width="300" height="200">
-					<figcaption>This is a Lion.</figcaption>
-				</figure>
-				<figure>
-					<img src="img/snake.jpg" alt="Image 3 in figure" width="300" height="200">
-					<figcaption>This is a Snake.</figcaption>
-				</figure>
-				<figure>
-					<img src="img/whale.jpg" alt="Image 4 in figure" width="300" height="200">
-					<figcaption>This is a Whale.</figcaption>
-				</figure>
-				<figure>
-					<img src="img/hawk.jpg" alt="Image 5 in figure" width="300" height="200">
-					<figcaption>This is a Hawk.</figcaption>
-				</figure>
-		</section>
+		 			</tr>
+		 			<tr>
+		 				<td><center>1</center></td>
+		 				<td><center>Bob</center></td>
+		 				<td><center>bob@fakemail.com</center></td>
+		 			</tr>
+		 			<tr>
+		 				<td><center>1</center></td>
+		 				<td><center>Jack</center></td>
+		 				<td><center>jack@fakemail.com</center></td>
+		 			</tr>
+		 			<tr>
+		 				<td><center>1</center></td>
+		 				<td><center>rob</center></td>
+		 				<td><center>Rob@fakemail.com</center></td>
+		 			</tr>
+		 			<tr>
+		 				<td colspan="3">All of the above are Division Heads</td>
+		 			</tr>
+		 		</tbody>
+		 	</table>
+		 </section>
+		 		
+		 <section id="images" class="main-section">
+		 	<h2>Animals</h2>
+		 		<article>
+		 			<figure>		<!-- the img tag is used to create an image in a document -->
+						<img src="img/elephant.jpg" alt="Image 1 in figure" width="300" height="200">
+						<figcaption>This is an Elephant.</figcaption>
+						<img src="img/lion.jpg" alt="Image 2 in figure" width="300" height="200">
+						<figcaption>This is a Lion.</figcaption>
+						<img src="img/snake.jpg" alt="Image 3 in figure" width="300" height="200">
+						<figcaption>This is a Snake.</figcaption>
+						<img src="img/whale.jpg" alt="Image 4 in figure" width="300" height="200">
+						<figcaption>This is a Whale.</figcaption>
+						<img src="img/hawk.jpg" alt="Image 5 in figure" width="300" height="200">
+						<figcaption>This is a Hawk.</figcaption>
+					</figure>
+				</article>
+			</section>
 		<section>
 			<!-- These are HTML entities -->
-            	<h2>HTML Entities</h2>
+            <h2>HTML Entities</h2>
+           	<article>
             	<p>Non Breaking Space : &#160;</p>
-            		<p>ampersand : &#38;</p>
-            		<p>Pound : &#163;</p>
-            		<p>Copyright : &#169;</p>
-            </section>
+            	<p>ampersand : &#38;</p>
+            	<p>Pound : &#163;</p>
+            	<p>Copyright : &#169;</p>
+            </article>
+        </section>
+		
 		<section id="special-tags" class="main-section">
 			<h2>Special Tags :</h2>
 				<article id="st-dl" class="special-tag">
@@ -99,18 +100,19 @@
             	<p><abbr title="Cascading Style Sheets">CSS</abbr></p>
             </article>
             <article class="special-tag" id="details">
-					<details> 
-				       <summary>What is a mobile Phone?</summary>
-				       <p>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving a telephone service area.</p>
-					</details>
-				</article>
-			</section>
-			<section>
-				<h2>Hidden Comment:</h2>
+				<details> 
+				    <summary>What is a mobile Phone?</summary>
+				    <p>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving a telephone service area.</p>
+				</details>
+			</article>
+		</section>
+			
+		<section>
+			<h2>Hidden Comment:</h2>
 					<!-- This comment is hidden -->
-			</section>
+		</section>
 			<!-- Made 15 February 2021 by Krystal Sobhie --> 
-		</body>
-	</html>
+</body>
+</html>
 
 
