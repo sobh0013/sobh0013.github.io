@@ -4,41 +4,48 @@
 	<title>Assignment 3</title>
 </head>
 <body>
-	<h1> Assignment 3</h1>
-
-	<div id="wrapper" class="wrapper">
-		<section id="html-forms" class="main-section">
-		<h2>Html-Forms</h2>
-			<form action="somepage.php" method="get">
-				<div id="fn-container" class="form-elm">
-					<label for="FirstName">First Name</label>
-					<input type="text" name="FirstName" id="FirstName" placeholder="Enter your First Name">
-				</div>
-				
-				<div id="ln-container" class="form-elm">
-					<label for="LastName">Last Name</label>
-					<input type="text" name="LastName" id="LastName" placeholder="Enter your Last Name">
-				</div>
-				
-				<div id="emailcontainer" class="form-elm">
-					<label for="email">Email</label>
-					<input type="email" name="email" id="email" placeholder="example@gmail.com">
-				</div>
-				
-				<div id="pass-container" class="form-elm">
-					<label for="pass">Password</label>
-					<input type="Password" name="pass" id="pass" placeholder="**********" required>
-				</div>
-
-				<div id="date-container" class="form-elm">
-					<label for="birthday">Date of Birth:</label>
- 					<input type="date" id="birthday" name="birthday">
- 				</div>
- 				<button type="submit">Submit</button>
- 				<button type="reset">Reset</button>
- 			</form>
- 		</section>
- 	</div>
+ 	<header id=header>
+		<h1> Assignment 3</h1>
+		<div id="wrapper" class="wrapper">
+		<!-- the section tag defines the section of the document -->
+			<section id="html-forms" class="main-section">
+				<h2>Html-Forms</h2>
+			<!-- the form tag allows for user input in HTML -->
+				<form action="somepage.php" method="get">
+					<div id="fn-container" class="form-elm">
+						<label for="FirstName">First Name:</label>
+						<input type="text" name="FirstName" id="FirstName" placeholder="Enter your First Name">
+					</div>
+					<!-- the placeholders will give user an example of what they can input -->
+					<div id="ln-container" class="form-elm">
+						<label for="LastName">Last Name:</label>
+						<input type="text" name="LastName" id="LastName" placeholder="Enter your Last Name">
+					</div>
+					<!-- users can input their email -->
+					<div id="emailcontainer" class="form-elm">
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email" placeholder="example@gmail.com">
+					</div>
+					<!-- users can input their passwords and it will be remain hidden because of 'required'--> 
+					<div id="pass-container" class="form-elm">
+						<label for="pass">Password:</label>
+						<input type="Password" name="pass" id="pass" placeholder="**********" required>
+					</div>
+					<!-- users can select from a calender or input their birthday -->
+					<div id="date-container" class="form-elm">
+						<label for="birthday">Date of Birth:</label>
+ 						<input type="date" id="birthday" name="birthday">
+ 					</div>
+ 					<!-- users can submit or reset their form -->
+ 					<button type="submit">Submit</button>
+ 					<button type="reset">Reset</button>
+ 				</form>
+ 			</section>
+ 		</div>
+ 	</header>
+ <!-- Made by Krystal Sobhie on 03 March 2021 -->
+</body>
+</html>
  			
 
 
