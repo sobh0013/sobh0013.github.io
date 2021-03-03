@@ -22,7 +22,7 @@
 						<input type="text" name="LastName" id="LastName" placeholder="Enter your Last Name">
 					</div>
 					<!-- users can input their email -->
-					<div id="emailcontainer" class="form-elm">
+					<div id="email-container" class="form-elm">
 						<label for="email">Email:</label>
 						<input type="email" name="email" id="email" placeholder="example@gmail.com">
 					</div>
@@ -35,6 +35,11 @@
 					<div id="date-container" class="form-elm">
 						<label for="birthday">Date of Birth:</label>
  						<input type="date" id="birthday" name="birthday">
+ 					</div>
+ 					<!-- users can enter the phone number -->
+ 					<div id="tel-container" class="form-elm">
+ 						<label for="phone">Phone:</label>
+ 						<input type="tel" name="phone" id="phone" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
  					</div>
  					<!-- users can submit or reset their form -->
  					<button type="submit">Submit</button>
