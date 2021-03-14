@@ -1,0 +1,43 @@
+header img {
+	float: left;
+	padding: 10px;
+	width: 117px;
+	height: 113px;
+}
+header {
+	padding-top: 25px;
+	width: 100%;
+	height: 230px;
+	background: #7cc576;
+}
+header h1 {
+	color: #000000;
+	font-size: auto;
+	text-align: left;
+	padding-left: 200px;
+}
+.nav ul li a {
+	text-decoration: none;
+}
+.nav ul{
+	list-style: none;
+	margin: 30px;
+	padding: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #6dcff6;
+  width: 162px;
+  text-align: center;
+}
+body {
+	background: url(../img/watercolor.png);
+	font-family: calibri;
+}
+a {
+	color: #000000;
+}
