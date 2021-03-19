@@ -1,33 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
 <head>
 	<title>Assignment 4</title>
+	<!-- put your css and font links here!-->
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<header class="site-header" id="site-header">
-		<img src="img/logo.png" alt="logo">
-		<h1>Title of Page</h1>
-		<nav class="main-nav-container desktop nav">
-			<ul class="main-nav clearfix">
-				<li>
-					<a href="home.html">Home</a><br>
-				</li>
-				<li>
-					<a href="about.html">About</a><br>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a><br>
-				</li>
-				<li>
-					<a href="work.html">Work</a><br>
-				</li>
-		</nav>
-	</header>
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 </head>
 <body>
-	<div id="main">
-	<h3>Main Content Title</h3>
-	<p>Souffle bonbon sweet roll. Tootsie roll chocolate gummies toffee topping jelly donut. Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummi bears sweet roll pastry cookie donut danish pudding sweet roll brownie. Fruitcake sweet roll pie liquorice danish sesame snaps dessert jelly beans. Pie topping cupcake caramels. Gingerbread gummies sugar plum powder biscuit jelly-o pastry lemon drops cookie. Dessert macaroon jelly beans tart cake cotton candy bonbon donut. Wafer cupcake topping jelly jelly-o bonbon cake. Candy canes jelly-o danish brownie biscuit muffin caramels. Marshmallow powder chocolate liquorice tiramisu. Biscuit souffle sweet donut candy canes brownie tart muffin</p>
-	<p>Souffle bonbon sweet roll. Tootsie roll chocolate gummies toffee topping jelly donut. Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummi bears sweet roll pastry cookie donut danish pudding sweet roll brownie. Fruitcake sweet roll pie liquorice danish sesame snaps dessert jelly beans. Pie topping cupcake caramels. Gingerbread gummies sugar plum powder biscuit jelly-o pastry lemon drops cookie. Dessert macaroon jelly beans tart cake cotton candy bonbon donut. Wafer cupcake topping jelly jelly-o bonbon cake. Candy canes jelly-o danish brownie biscuit muffin caramels. Marshmallow powder chocolate liquorice tiramisu. Biscuit souffle sweet donut candy canes brownie tart muffin</p>
-	</div>
+	<header>
+		<div class="header" id="header">
+			<img src="img/logo.png" alt="logo">
+			<h1>Title of Page</h1>
+				<nav class="main-nav-container desktop nav">
+					<ul class="main-nav clearfix">
+						<li>
+						<a href="home.html">Home</a><br>
+						</li>
+						<li>
+						<a href="about.html">About</a><br>
+						</li>
+						<li>
+						<a href="contact.html">Contact</a><br>
+						</li>
+						<li>
+						<a href="work.html">Work</a><br>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	<main class="main clearfix" id="main">
+		<section class="main-content">
+			<h2>Main Content Title</h2><br>
+			<p>Souffle bonbon sweet roll. Tootsie roll chocolate gummies toffee topping jelly donut. Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummi bears sweet roll pastry cookie donut danish pudding sweet roll brownie. Fruitcake sweet roll pie liquorice danish sesame snaps dessert jelly beans. Pie topping cupcake caramels. Gingerbread gummies sugar plum powder biscuit jelly-o pastry lemon drops cookie. Dessert macaroon jelly beans tart cake cotton candy bonbon donut. Wafer cupcake topping jelly jelly-o bonbon cake. Candy canes jelly-o danish brownie biscuit muffin caramels. Marshmallow powder chocolate liquorice tiramisu. Biscuit souffle sweet donut candy canes brownie tart muffin</p><br>
+			<p>Souffle bonbon sweet roll. Tootsie roll chocolate gummies toffee topping jelly donut. Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummi bears sweet roll pastry cookie donut danish pudding sweet roll brownie. Fruitcake sweet roll pie liquorice danish sesame snaps dessert jelly beans. Pie topping cupcake caramels. Gingerbread gummies sugar plum powder biscuit jelly-o pastry lemon drops cookie. Dessert macaroon jelly beans tart cake cotton candy bonbon donut. Wafer cupcake topping jelly jelly-o bonbon cake. Candy canes jelly-o danish brownie biscuit muffin caramels. Marshmallow powder chocolate liquorice tiramisu. Biscuit souffle sweet donut candy canes brownie tart muffin</p>
+		</section>
+
+		<article class="image-gallery">
+			<h3>Secondary Content Title</h3>
+
+			<div class="image-gallery">
+   	 			<img src="img/sleepycat.jpg" alt="Sleepy Cat" width="250" height="200">
+  				<div class="desc">Image 1</div>
+			</div>
+
+			<div class="image-gallery">
+    			<img src="img/threecats.jpg" alt="Three Cats" width="250" height="200">
+ 				<div class="desc">Image 2</div>
+			</div>
+
+			<div class="image-gallery">
+    			<img src="img/onecat.jpg" alt="One Cat" width="250" height="200">
+  				<div class="desc">Image 3</div>
+			</div>
+		</article>
+	</main>
+
+
+		<aside class="col-main site-sidebar">
+			<div class="site-sidebar">
+				<div id="sidebar-image" class="image">
+					<img src="img/whitecat.jpg" alt="Sidebar Image" width="285" height="215">
+					<h3>Title of the sidebar</h3>
+					<p>Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummi bears sweeet roll pastry cookie donut danish pudding sweet roll brownie</p>
+				</div>
+			</div>
+		</aside>
+
+	<footer class="footer" id="footer">
+		<div class="footer-container">
+			<p>CopyRight 2017, All Rights Reserved.</p>
+		</div>
+		<div class="social-container">
+			<a href="http://facebook.com"><img class=“sm_icon“ src="img/icons/facebook.png" alt="facebook"></a>
+			<a href="http://youtube.com"><img class=“sm_icon“ src="img/icons/youtube.png" alt="youtube"></a>
+			<a href="http://twitter.com"><img class=“sm_icon“ src="img/icons/twitter.png" alt="twitter"></a>
+		</div>
+	</footer>
+	<!-- Created by Krystal Sobhie 2021-03-19 -->
 </body>
 </html>
