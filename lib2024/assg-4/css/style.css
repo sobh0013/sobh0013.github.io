@@ -63,6 +63,7 @@ h3{
 	font-size: 125%;
 }
 .nav ul{
+	display: inline-block;
 	list-style-type: none;
 	margin: 30px;
 	padding: 40px;
@@ -70,7 +71,6 @@ h3{
 	justify-content: space-around;
 }
 .nav li {
- 	display: inline-block;
   	font-size: 20px;
  	padding: 20px;
   	background-color: #6dcff6;
@@ -96,7 +96,7 @@ aside{
  	right: 0px;
  	top: 290px;
 }
-body {
+body{
 	background: url(../img/watercolor.png);
 }
 .image-gallery{
@@ -106,7 +106,7 @@ body {
 	box-sizing: border-box;
 	text-align: center;
 }
-a {
+a{
 	color: #000000;
 	text-decoration: none;
 }
