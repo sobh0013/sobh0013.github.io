@@ -24,24 +24,30 @@ time, mark, audio, video {
 	font-style: normal;
 	vertical-align: baseline;
 }
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 h1,h2,h3 {
-    font-family: Noto Sans JP, sans-serif; font-size: auto;
+    font-family: Noto Sans JP, sans-serif; 
+    font-size: auto;
 }
 body{
-	font-family: 'Open Sans';font-size: 16px;
+	font-family: 'Open Sans';
+	font-size: 16px;
 }
 header {
 	 background: #7cc576;
 	 height: 230px;
 	 clear: both;
 }
-
 .header img {
 	float:left;
   	width: 100px;
- 	height: 100px;
- 	padding-left: 30px;
- 	padding-top: 20px;
+ 	margin-left: 20px;
+ 	margin-top: 20px;
+ 	box-sizing: border-box;
 }
 h1 {
   	position: relative;
@@ -69,7 +75,7 @@ h3{
 	padding: 40px;
 	display: flex;
 	justify-content: space-around;
-}
+} 
 .nav li {
   	font-size: 20px;
  	padding: 20px;
@@ -101,10 +107,9 @@ body{
 }
 .image-gallery{
 	float: left;
-	width: 33.3%;
-	padding: 5px;
+	width: 33%;
+	padding: 30px;
 	box-sizing: border-box;
-	text-align: center;
 }
 a{
 	color: #000000;
@@ -113,12 +118,13 @@ a{
 
 footer{
 	background: #7cc576;
-	height: 110px;
 	clear: both;
 }
 .footer-container{
-	text-align: left;	
+	text-align: left;
+	box-sizing: border-box;
 }
 .social-container{
 	text-align: right;
+	padding: 15px;
 }
