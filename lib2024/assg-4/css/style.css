@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font-style: normal;
 	vertical-align: baseline;
+	text-decoration: none;
 }
 .clearfix:after {
 	content: "";
@@ -68,9 +69,11 @@ h3{
 	padding-bottom: 15px;
 	font-size: 125%;
 }
+ol, ul {
+	list-style: none;
+}
 .nav ul{
 	display: inline-block;
-	list-style-type: none;
 	margin: 30px;
 	padding: 40px;
 	display: flex;
@@ -83,17 +86,13 @@ h3{
   	width: 162px;
   	text-align: center;
   	border-radius: 10px;
+  	color: #000000;
 }
 section {
   	float: left;
   	margin: 0 1.5%;
   	width: 70%;
   	height: 390px;
-}
-article{
-	float: left;
-	margin: 0 1.5%;
-	width: 63%;
 }
 aside{
 	position: absolute;
@@ -105,11 +104,13 @@ aside{
 body{
 	background: url(../img/watercolor.png);
 }
-.image-gallery{
-	float: left;
-	width: 33%;
-	padding: 30px;
-	box-sizing: border-box;
+article{
+		box-sizing: border-box;
+		float: left;
+		box-shadow: none;
+		padding: 15px;
+}
+
 }
 a{
 	color: #000000;
@@ -128,3 +129,12 @@ footer{
 	text-align: right;
 	padding: 15px;
 }
+div.images{
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+}
+.caption{
+	display: block;
+}
+/*focus on changing width and padding in my nav and images/*
