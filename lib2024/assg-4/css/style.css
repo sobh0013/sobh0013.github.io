@@ -30,12 +30,12 @@ time, mark, audio, video {
 	clear: both;
 }
 h1,h2,h3 {
-    font-family: Noto Sans JP, sans-serif; 
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: auto;
 }
 body{
-	font-family: 'Open Sans';
-	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 }
 header {
 	 background: #7cc576;
@@ -58,7 +58,7 @@ h1 {
 }
 h2{
 	position: relative;
-	padding-top: 30px;
+	padding-top: 20px;
 	font-size: 150%;
 }
 h3{
@@ -76,9 +76,7 @@ a{
 	text-decoration: none;
 }
 .nav ul{
-	display: inline-block;
 	padding-top: 15px;
-	padding-left: 30px;
 	display: flex;
 	justify-content: space-around;
 	clear: both;
@@ -87,15 +85,18 @@ a{
   	font-size: 20px;
  	padding: 20px;
   	background-color: #6dcff6;
-  	width: 162px;
+  	width: 165px;
   	text-align: center;
   	border-radius: 10px;
+}
+body{
+	background: url(../img/watercolor.png);
 }
 section {
   	float: left;
   	margin: 0 1.5%;
   	width: 70%;
-  	height: 390px;
+  	height: 355px;
 }
 aside{
 	position: absolute;
@@ -104,32 +105,18 @@ aside{
  	right: 0px;
  	top: 290px;
 }
-body{
-	background: url(../img/watercolor.png);
-}
+
 article{
 		box-sizing: border-box;
 		float: left;
 		box-shadow: none;
 		padding: 15px;
 }
+#image-2{
+	padding-left: 230px;
 }
-a{
-	color: #000000;
-	text-decoration: none;
-}
-
-footer{
-	background: #7cc576;
-	clear: both;
-}
-.footer-container{
-	text-align: left;
-	box-sizing: border-box;
-}
-.social-container{
-	text-align: right;
-	padding: 15px;
+#image-3{
+	padding-left: 230px;
 }
 div.images{
 	vertical-align: top;
@@ -139,10 +126,21 @@ div.images{
 .caption{
 	display: block;
 }
-#image-2{
-	padding-left: 230px;
+a{
+	color: #000000;
+	text-decoration: none;
 }
-#image-3{
-	padding-left: 230px;
+footer{
+	background: #7cc576;
+	clear: both;
 }
+.footer-container{
+	text-align: left;
+	box-sizing: border-box;
+}
+.social-container{
+	display: inline;
+}
+
+
 /*focus on changing width and padding in my nav and images/*
