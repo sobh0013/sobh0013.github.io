@@ -29,6 +29,9 @@ time, mark, audio, video {
 	display: table;
 	clear: both;
 }
+.clearfix{
+	overflow: auto;
+}
 h1,h2,h3 {
     font-family: 'Noto Sans JP', sans-serif;
 }
