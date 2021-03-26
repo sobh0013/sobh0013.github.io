@@ -138,6 +138,7 @@ article{
 .main-content p{
 	width: 605px;
 }
+/*these are for the images in the article*/
 #image-1{
 	padding-left: 20px;
 }
@@ -155,6 +156,7 @@ div.images{
 .caption{
 	display: block;
 }
+/*footer css style*/
 footer{
 	background: #7cc576;
 	padding: 50px;
