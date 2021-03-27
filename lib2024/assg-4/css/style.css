@@ -136,7 +136,6 @@ body{
 .site-sidebar p{
 	width: 270px;
 }
-/*position: absolute will help make the aside stay to the right*/
 .image-gallery{
 	content: "";
 	clear: both;
