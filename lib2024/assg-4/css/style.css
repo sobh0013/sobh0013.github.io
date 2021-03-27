@@ -32,6 +32,21 @@ time, mark, audio, video {
 .clearfix{
 	overflow: auto;
 }
+*{
+	box-sizing: border-box;
+}
+header, main, footer{
+	max-width: 1280px:
+	margin: 0 auto;
+}
+/*blockquote, q{
+	quotes: none;
+}
+blockquote: before, blockquote: after,
+q: before, q: after{
+	content: "";
+	content: none;
+}*/
 /*add your font and font sizes here*/
 h1,h2,h3 {
     font-family: 'Noto Sans JP', sans-serif;
@@ -44,8 +59,9 @@ body{
 /*make sure to add your dimensions from photopea mockup*/
 header {
 	 background: #7cc576;
-	 height: 230px;
-	 clear: both;
+	/* height: 230px;*/
+	/* clear: both;
+	 width: 100%;*/
 }
 /*this is for the logo*/
 .site-header img {
@@ -62,7 +78,6 @@ header {
 	padding: 40px;
 	font-size: 300%;
 	margin-left: 200px;
-	margin-right: 400px;
 }
 h2{
 	position: relative;
@@ -72,7 +87,7 @@ h2{
 /*these are for your headers in your article and aside*/
 h3{
 	text-align: left;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 	font-size: 125%;
 }
@@ -90,6 +105,8 @@ a{
 .desptop-nav{
 	clear: both;
 	display: none;
+	width: calc(100% - 100px);
+	max-width: 600px;
 }
 .desktop-nav ul{
 	width: 100%;
@@ -103,6 +120,7 @@ a{
 }
 .main-nav a{
 	display: block;
+	box-sizing: border-box;
 	padding: 20px;
 	background-color: #6dcff6;
 	text-align: center;
@@ -113,33 +131,57 @@ a{
 body{
 	background: url(../img/watercolor.png);
 }
-section{
+article{
   	float: left;
   	margin-left: 25px;
+  	max-width: 65%;
+  	box-sizing: border-box;
+}
+
+.site-sidebar{
+	float: right;
+	/*width: 35%;*/
+	margin-top: 40px;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
+.site-sidebar p{
+	width: 270px;
 }
 /*position: absolute will help make the aside stay to the right*/
-aside{
+.image-gallery{
+	content: "";
+	clear: both;
+	display: table;
+	/*padding-left: 25px;*/
+	width: 100%;
+	padding-left: 25px;
+}
+.image-slide{
+	padding: 10px;
+	float: left;
+	width: 33.3%;
+	box-sizing: border-box;
+	text-align: center;
+}
+/*figcaption{
+	text-align: center;
+}*//*add border box*/
+/*aside{
 	position: absolute;
  	float: right;
  	display: block;
- 	width: 290px;
+ 	width: 35%;
  	right: 20px;
  	top: 300px;
-}
-article{
-	box-sizing: border-box;
-	float: left;
-	padding: 15px;
-	padding-top: 30px;
-}
-.site-sidebar p{
-	width: 280px;
-}
-.main-content p{
+ 	text-align: center;
+}*/
+
+/*.main-content p{
 	width: 605px;
 }
 /*these are for the images in the article*/
-#image-1{
+/*#image-1{
 	padding-left: 20px;
 }
 #image-2{
@@ -152,10 +194,8 @@ div.images{
 	vertical-align: top;
 	display: inline-block;
 	text-align: center;
-}
-.caption{
-	display: block;
-}
+}*/
+
 /*footer css style*/
 footer{
 	background: #7cc576;
@@ -166,4 +206,5 @@ footer{
 	position: relative;
 	margin-top: -35px;
 }
+
 /*created by Krystal Sobhie 2021-03-26*/
