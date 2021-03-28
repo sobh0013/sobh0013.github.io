@@ -10,7 +10,8 @@
 	<body>
 		<!-- place title and logo here -->
 		<header class="site-header">
-			<div id="site-header" class="site-header clearfix" >
+			<div class="site-header clearfix" id="site-header">
+				<!-- image for the top left in the header -->
 				<img src="img/logo.png" class="logo" alt="logo">
 				<h1 class="page-title">Title Of Page</h1>
 				<nav class="main-nav-container desktop-nav">
@@ -37,8 +38,9 @@
 		</header>
 		<!-- beginning of main content -->
 		<main class="main clearfix" id="main">
-			<section class="main-content">
-				<h2>Main Content Title</h2><br>
+			<!-- this is for my main content -->
+			<section class="col-main site-content">
+				<h2 class="main-title">Main Content Title</h2><br>
 				<p>
 					Souffle bonbon sweet roll. Tootsie roll chocolate gummies toffee topping jelly donut. Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummi bears sweet roll pastry cookie donut danish pudding sweet roll brownie. Fruitcake sweet roll pie liquorice danish sesame snaps dessert jelly beans. Pie topping cupcake caramels. Gingerbread gummies sugar plum powder biscuit jelly-o pastry lemon drops cookie. Dessert macaroon jelly beans tart cake cotton candy bonbon donut. Wafer cupcake topping jelly jelly-o bonbon cake. Candy canes jelly-o danish brownie biscuit muffin caramels. Marshmallow powder chocolate liquorice tiramisu. Biscuit souffle sweet donut candy canes brownie tart muffin.
 				</p><br>
@@ -47,8 +49,8 @@
 				</p>
 			</section>
 			
-			<aside class="col-main site-sidebar clearfix">
-				<!-- 			<div class="site-sidebar"> -->
+			<aside class="site-sidebar">
+				<!-- this is for my aside -->
 				<div id="sidebar-image" class="sidebar-image">
 					<img src="img/whitecat.jpg" alt="Sidebar Image">
 					<h3 class="section-title">Title of the sidebar</h3>
@@ -57,29 +59,35 @@
 					</p>
 				</div>
 			</aside>
-			<article class="image-gallery clearfix">
+			<!-- This will be my image gallery -->
+			<article class="image-gallery clearfix" id="image-gallery">
 				<h3 class="article-title">Secondary Content Title</h3>
+				<!-- images to go in gallery -->
 				<figure class="image-slide">
 					<img src="img/sleepycat.jpg" class="sleepycat" alt="sleepy cat"/>
 					<figcaption>Image 1</figcaption>
 				</figure>
+				<!-- resized images in photopea -->
 				<figure class="image-slide">
 					<img src="img/threecats.jpg" class="threecats" alt="three cats"/>
 					<figcaption>Image 2</figcaption>
 				</figure>
+
 				<figure class="image-slide">
 					<img src="img/onecat.jpg" class="onecat" alt="one cat"/>
 					<figcaption>Image 3</figcaption>
 				</figure>
 			</article>
 		</main>
+		<!-- end of main content -->
 		<footer class="footer" id="footer">
-			<div class="footer-container clearfix">
+			<!-- this will be for my footer -->
+			<div class="col-footer copyright-info">
 				<p>
 					CopyRight 2017, All Rights Reserved.
 				</p>
 			</div>
-			<nav class="social-container clearfix" id="social-container">
+			<nav class="social-container" id="social-container">
 				<ul>
 					<li>
 						<a href="http://facebook.com" target="_blank"><img class=“sm_icon“ src="img/icons/facebook.png" alt="facebook"></a>
