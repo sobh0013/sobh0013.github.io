@@ -48,160 +48,160 @@ footer, header, nav, section {
 /*This media query targets, tablet and above*/
 @media only screen and (min-width: 768px) {
 /*for smooth navigation*/
-header, main, footer {
+	header, main, footer {
 	max-width: 1280px;
 	margin: 0 auto;
-}
+	}
 
-.col-main, .col-footer {
+	.col-main, .col-footer {
 	width:100%;
-}
+	}
 
-/*add your font and font sizes here*/
-h1,h2,h3 {
+	/*add your font and font sizes here*/
+	h1,h2,h3 {
     font-family: 'Noto Sans JP', sans-serif;
-}
+	}
 
-body {
+	body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: normal;
-}
+	}
 
-/*make sure to add your dimensions from photopea mockup*/
-header {
+	/*make sure to add your dimensions from photopea mockup*/
+	header {
 	 background: #7cc576;
-}
+	}
 
-/*this is for the logo*/
-.site-header img {
+	/*this is for the logo*/
+	.site-header img {
 	float:left;
   	width: 100px;
  	margin-left: 20px;
  	margin-top: 20px;
  	box-sizing: border-box;
-}
+	}
 
-/*header at the top of the page*/
-.page-title {
-	float: left;
-	box-sizing: border-box;
-	padding: 40px;
-	font-size: 300%;
-	margin-left: 150px;
-}
+	/*header at the top of the page*/
+	.page-title {
+		float: left;
+		box-sizing: border-box;
+		padding: 40px;
+		font-size: 300%;
+		margin-left: 150px;
+	}
 
-/*for header in the main content*/
-h2 {
-	position: relative;
-	padding-top: 20px;
-	font-size: 150%;
-}
+	/*for header in the main content*/
+	h2 {
+		position: relative;
+		padding-top: 20px;
+		font-size: 150%;
+	}
 
-/*these are for your headers in your article and aside*/
-h3 {
-	text-align: left;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	font-size: 125%;
-}
+	/*these are for your headers in your article and aside*/
+	h3 {
+		text-align: left;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		font-size: 125%;
+	}
 
-/*for my list in the footer*/
-ol, ul {
-	list-style: none;
-}
-li {
-	display: inline-block;
-}
-/*this will remove the underline and the blue color in your navigation bar*/
-a {
-	color: inherit;
-	text-decoration: none;
-}
+	/*for my list in the footer*/
+	ol, ul {
+		list-style: none;
+	}
+	li {
+		display: inline-block;
+	}
+	/*this will remove the underline and the blue color in your navigation bar*/
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
 
-.desptop-nav {
-	clear: both;
-	width: calc(100% - 100px);
-	max-width: 600px;
-}
+	.desptop-nav {
+		clear: both;
+		width: calc(100% - 100px);
+		max-width: 600px;
+	}
 
-.desktop-nav ul {
-	width: 100%;
-}
+	.desktop-nav ul {
+		width: 100%;
+	}
 
-.desktop-nav li {
-	box-sizing: border-box;
-  	width: 25%;
-  	padding-right: 70px;
-  	padding-left: 50px;
-  	float: left;
-}
+	.desktop-nav li {
+		box-sizing: border-box;
+	  	width: 25%;
+	  	padding-right: 70px;
+	  	padding-left: 50px;
+	  	float: left;
+	}
 
-.main-nav a {
-	display: block;
-	box-sizing: border-box;
-	padding: 20px;
-	background-color: #6dcff6;
-	text-align: center;
-	border-radius: 10px;
-	font-size: 150%;
-	width: 100%;
-	transition: 1s;
-}
-/*this is where you add your website background*/
-body {
-	background: url(../img/watercolor.png);
-}
+	.main-nav a {
+		display: block;
+		box-sizing: border-box;
+		padding: 20px;
+		background-color: #6dcff6;
+		text-align: center;
+		border-radius: 10px;
+		font-size: 150%;
+		width: 100%;
+		transition: 1s;
+	}
+	/*this is where you add your website background*/
+	body {
+		background: url(../img/watercolor.png);
+	}
 
-.site-content {
-  	float: left;
-  	margin-left: 25px;
-  	max-width: 65%;
-  	box-sizing: border-box;
-}
+	.site-content {
+	  	float: left;
+	  	margin-left: 25px;
+	  	max-width: 65%;
+	  	box-sizing: border-box;
+	}
 
-.site-sidebar {
-	float: right;
-	max-width: 35%;
-	margin-top: 70px;
-	margin-right: 10px;
-	box-sizing: border-box;
-}
+	.site-sidebar {
+		float: right;
+		max-width: 35%;
+		margin-top: 70px;
+		margin-right: 10px;
+		box-sizing: border-box;
+	}
 
-.site-sidebar p {
-	width: 270px;
-}
+	.site-sidebar p {
+		width: 270px;
+	}
 
-.image-gallery {
-	content: "";
-	clear: both;
-	display: table;
-	width: 100%;
-	padding-left: 25px;
-	box-sizing: border-box;
-}
+	.image-gallery {
+		content: "";
+		clear: both;
+		display: table;
+		width: 100%;
+		padding-left: 25px;
+		box-sizing: border-box;
+	}
 
-.image-slide {
-	padding: 10px;
-	float: left;
-	width: 33.3%;
-	text-align: center;
-	box-sizing: border-box;
-}
+	.image-slide {
+		padding: 10px;
+		float: left;
+		width: 33.3%;
+		text-align: center;
+		box-sizing: border-box;
+	}
 
-/*footer css style*/
-footer {
-	background: #7cc576;
-	padding: 50px;
-	width: 100%;
-	box-sizing: border-box;
-}
+	/*footer css style*/
+	footer {
+		background: #7cc576;
+		padding: 50px;
+		width: 100%;
+		box-sizing: border-box;
+	}
 
-#social-container {
-	float: right;
-	position: relative;
-	margin-top: -35px;
-	box-sizing: border-box;
-}
+	#social-container {
+		float: right;
+		position: relative;
+		margin-top: -35px;
+		box-sizing: border-box;
+	}
 }
 /*created by Krystal Sobhie 2021-03-26*/
