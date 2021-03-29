@@ -45,121 +45,133 @@ footer, header, nav, section {
 	display: block;
 }
 
-/*This media query targets, tablet and above*/
+/*for my list in the footer*/
+ol, ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+/*for fluid navigation*/
+.col-main, .col-footer {
+width:100%;
+}
+
+/*add your font and font sizes here*/
+h1,h2,h3 {
+font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: normal;
+}
+
+/*make sure to add your dimensions from photopea mockup*/
+header {
+ background: #7cc576;
+}
+
+/*this is for the logo*/
+.site-header img {
+float:left;
+	width: 100px;
+	margin-left: 20px;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+/*header at the top of the page*/
+.page-title {
+	float: left;
+	box-sizing: border-box;
+	padding: 40px;
+	font-size: 300%;
+	margin-left: 150px;
+}
+
+/*header styles*/
+h2 {
+	position: relative;
+	padding-top: 20px;
+	font-size: 150%;
+}
+
+/*these are for your headers in your article and aside*/
+h3 {
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 125%;
+}
+/*this will remove the underline and the blue color in your navigation bar*/
+a {
+	color: inherit;
+	text-decoration: none;
+}
+/*navigation bar styles in the header*/
+.desptop-nav {
+	clear: both;
+	width: calc(100% - 100px);
+	max-width: 600px;
+}
+
+.desktop-nav ul {
+	width: 100%;
+}
+
+.desktop-nav li {
+	box-sizing: border-box;
+  	width: 25%;
+  	padding-right: 70px;
+  	padding-left: 50px;
+  	float: left;
+}
+
+.main-nav a {
+	display: block;
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: #6dcff6;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 150%;
+	width: 100%;
+	transition: 1s;
+}
+/*this is where you add your website background*/
+body {
+	background: url(../img/watercolor.png);
+}
+/*footer style*/
+footer {
+	background: #7cc576;
+	padding: 50px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
 @media only screen and (min-width: 768px) {
-/*for smooth navigation*/
+	/*for fluid design on larger screens*/
 	header, main, footer {
-	max-width: 1280px;
-	margin: 0 auto;
+		max-width: 1280px;
+		margin: 0 auto;
 	}
 
-	.col-main, .col-footer {
-	width:100%;
-	}
-
-	/*add your font and font sizes here*/
-	h1,h2,h3 {
-    font-family: 'Noto Sans JP', sans-serif;
-	}
-
-	body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	line-height: normal;
-	}
-
-	/*make sure to add your dimensions from photopea mockup*/
-	header {
-	 background: #7cc576;
-	}
-
-	/*this is for the logo*/
-	.site-header img {
-	float:left;
-  	width: 100px;
- 	margin-left: 20px;
- 	margin-top: 20px;
- 	box-sizing: border-box;
-	}
-
-	/*header at the top of the page*/
-	.page-title {
-		float: left;
-		box-sizing: border-box;
-		padding: 40px;
-		font-size: 300%;
-		margin-left: 150px;
-	}
-
-	/*for header in the main content*/
-	h2 {
-		position: relative;
-		padding-top: 20px;
-		font-size: 150%;
-	}
-
-	/*these are for your headers in your article and aside*/
-	h3 {
-		text-align: left;
-		padding-top: 20px;
-		padding-bottom: 10px;
-		font-size: 125%;
-	}
-
-	/*for my list in the footer*/
-	ol, ul {
-		list-style: none;
-	}
-	li {
-		display: inline-block;
-	}
-	/*this will remove the underline and the blue color in your navigation bar*/
-	a {
-		color: inherit;
-		text-decoration: none;
-	}
-
-	.desptop-nav {
-		clear: both;
-		width: calc(100% - 100px);
-		max-width: 600px;
-	}
-
-	.desktop-nav ul {
-		width: 100%;
-	}
-
-	.desktop-nav li {
-		box-sizing: border-box;
-	  	width: 25%;
-	  	padding-right: 70px;
-	  	padding-left: 50px;
-	  	float: left;
-	}
-
-	.main-nav a {
+	.desktop-nav{
 		display: block;
-		box-sizing: border-box;
-		padding: 20px;
-		background-color: #6dcff6;
-		text-align: center;
-		border-radius: 10px;
-		font-size: 150%;
-		width: 100%;
-		transition: 1s;
 	}
-	/*this is where you add your website background*/
-	body {
-		background: url(../img/watercolor.png);
-	}
-
+	/*the main content of my page*/
 	.site-content {
 	  	float: left;
 	  	margin-left: 25px;
 	  	max-width: 65%;
 	  	box-sizing: border-box;
 	}
-
+    /*sidebar portion of the site*/
 	.site-sidebar {
 		float: right;
 		max-width: 35%;
@@ -167,11 +179,11 @@ footer, header, nav, section {
 		margin-right: 25px;
 		box-sizing: border-box;
 	}
-
+	/*for the text in the sidebar*/
 	.site-sidebar p {
 		width: 270px;
 	}
-
+    /*image gallery dimensions*/
 	.image-gallery {
 		content: "";
 		clear: both;
@@ -180,7 +192,7 @@ footer, header, nav, section {
 		padding-left: 25px;
 		box-sizing: border-box;
 	}
-
+	/*image gallery contents*/
 	.image-slide {
 		padding: 10px;
 		float: left;
@@ -189,14 +201,7 @@ footer, header, nav, section {
 		box-sizing: border-box;
 	}
 
-	/*footer css style*/
-	footer {
-		background: #7cc576;
-		padding: 50px;
-		width: 100%;
-		box-sizing: border-box;
-	}
-
+	/*social media links*/
 	#social-container {
 		float: right;
 		position: relative;
@@ -204,4 +209,5 @@ footer, header, nav, section {
 		box-sizing: border-box;
 	}
 }
+
 /*created by Krystal Sobhie 2021-03-26*/
