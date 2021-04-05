@@ -1,9 +1,58 @@
 <!DOCTYPE html>
-<html >
+<html lang="en-ca" >
 	<head>
 		<meta charset="utf-8">
 		<title>LIB2024 - QA</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<style>
+		.phoneNumber{
+		width: 125px;
+		height: 30px;
+		font-family: Helvetica, Sans-Serif;
+		font-size: 14px;
+		padding: 5px;
+		outline: none;
+		border-color: pink;
+		font-weight: bold;}
+		div.container{
+		width: 200px;
+		height: 200px;
+		position: relative;
+		border: solid grey 5px;
+		}
+		div.container p{
+		margin: 0;
+		background: pink;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		}
+		.block {
+		border: 10px solid #45ffd0;
+		border-radius: 10%;
+		width: 100px;
+		height: 100px;
+		animation: spin 2s linear infinite;
+		}
+		@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+		}
+		.rotate-me{
+		border: 10px solid #c573f5;
+		border-radius: 10px;
+		width: 100px;
+		height: 100px;
+		animation:rotation 0.5s linear;
+		animation-iteration-count: 5;
+		}
+		@keyframes rotation{
+		0%, 40% {transform: rotate(0deg);}
+		60%, 100% {transform: rotate(90deg);}
+		}
+		</style>
 	</head>
 	<body>
 		<h1>LIB2024- QA</h1>
@@ -52,7 +101,8 @@
 				<p>
 					<strong>Ans: </strong>
 					The &lt;p&gt; tag is used to create a paragraph in html.
-					<p> This is an example of &lt;p&gt; being used to create a paragraph.
+					<p>
+						This is an example of &lt;p&gt; being used to create a paragraph.
 					</p>
 				</li>
 				<!-- Qus 5 -->
@@ -133,101 +183,84 @@
 					</p>
 					<p>
 						<strong>Ans: </strong>
-						<p style="color:magenta;">This is an example of inline style.</p>
-					</p>
-				</li>
-				<!--Qus 12 -->
-				<li>
-					<p>
-						<strong>Qus: </strong>
-						How would you link an external style sheet? Give example.
-					</p>
-					<p>
-						<strong>Ans: </strong>
-						You like an external style sheet by using &lt; link &gt; to link an external CSS file. You can add a link to the &lt; head &gt; section.
-						<br>Here is an example : &lt; link rel="stylesheet" href="css/style.css"/&gt;</br>
-					</p>
-				</li>
-				<li>
-					<p>
-						<strong>Qus: </strong>
-						Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px.
-					</p>
-					<p>
-						<strong>Ans: </strong>
-						<center style="width: 50px; height: 50px; position: relative; border: solid 3px;
-						padding: 100px;">This is a centered element</center>
+						<p style="color:magenta;">This is an example of inline style.
+						</p>
 					</li>
-					
+					<!--Qus 12 -->
 					<li>
 						<p>
 							<strong>Qus: </strong>
-							Create CSS keyframes block called "spin" that rotates an element.
+							How would you link an external style sheet? Give example.
 						</p>
 						<p>
 							<strong>Ans: </strong>
+							You like an external style sheet by using &lt; link &gt; to link an external CSS file. You can add a link to the &lt; head &gt; section.
+							<br>Here is an example : &lt; link rel="stylesheet" href="css/style.css"/&gt;>
+						</p>
+					</li>
+					<!-- Qus 13 -->
+					<li>
+						<p>
+							<strong>Qus: </strong>
+							Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px.
+						</p>
+						<p>
+							<strong>Ans: </strong>
+							<div class="container">
+								<p>Centered!
+								</p>
+							</div>
+							
+						</li>
+						<!-- Qus 14 -->
+						<li>
+							<p>
+								<strong>Qus: </strong>
+								Create CSS keyframes block called "spin" that rotates an element.
+							</p>
+							<p>
+								<strong>Ans: </strong>
+							</p>
 							<div class="block"></div>
-							<style>
-							.block {
-							border: 10px solid #45ffd0;
-							border-radius: 10%;
-							width: 100px;
-							height: 100px;
-							animation: spin 2s linear infinite;
-							}
-							@keyframes spin {
-							0% { transform: rotate(0deg); }
-							100% { transform: rotate(360deg); }
-							}
-							</style>
-						</p>
-					</li>
-					<li>
-						<p>
-							<strong>Qus: </strong>
-							Create CSS animation block to rotate an element that has the following properties :
-							class "rotate-me"
-							It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin".
-						</p>
-						<p>
-							<strong>Ans: </strong>
+							
+						</li>
+						<!-- Qus 15 -->
+						<li>
+							<p>
+								<strong>Qus: </strong>
+								Create CSS animation block to rotate an element that has the following properties :
+								class "rotate-me"
+								It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin".
+							</p>
+							<p>
+								<strong>Ans: </strong>
+							</p>
 							<div class="rotate-me"></div>
-							<style>
-								.rotate-me{
-									border: 10px solid #c573f5;
-									border-radius: 10px;
-									width: 100px;
-									height: 100px;
-									animation:rotation 0.5s linear;
-									animation-iteration-count: 5;
-								}
-								@keyframes rotation{
-									0%, 40% {transform: rotate(0deg);}
-									60%, 100% {transform: rotate(90deg);}
-								}
-							</style>
-						</p>
-					</li>
-					<li>
-						<p>
-							<strong>Qus: </strong>
-							How would you include create an alert with string "I love JavaScript" using JavaScript?
-						</p>
-						<p>
-							<strong>Ans:</strong>
-							To include create an alert with string 'I love JavaScript' I could include it inline using &lt;script type="text/javascript"&gt; alert('I love JavaScript')&lt;/script&gt;. I could also include an external script and use alert('I love Javascript').
-							<script type="text/javascript">
-								alert('I love JavaScript')
-							</script>
-						</p>
-					</li>
-					<li>
-						<p>
-							<strong>Qus: </strong>
-							How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?
-						</p>
-						<p>
-							<strong>Ans: </strong>
+							
+						</li>
+						<!-- Qus 16 -->
+						<li>
+							<p>
+								<strong>Qus: </strong>
+								How would you include create an alert with string "I love JavaScript" using JavaScript?
+							</p>
+							<p>
+								<strong>Ans:</strong>
+								To include create an alert with string 'I love JavaScript' I could include it inline using &lt;script type="text/javascript"&gt; alert('I love JavaScript')&lt;/script&gt;. I could also include an external script and use alert('I love Javascript').
+								<script>
+									alert('I love JavaScript')
+								</script>
+							</p>
+						</li>
+						<!-- Qus 17 -->
+						<li>
+							<p>
+								<strong>Qus: </strong>
+								How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?
+							</p>
+							<p>
+								<strong>Ans: </strong>
+							</p>
 							In this example I have created a button in HTML to initate the event to fade my element (a div) with the id "fade-me". In JQuery, I have used
 							<br>&lt;script&gt;
 							<br>$("button").click(function(){
@@ -241,7 +274,54 @@
 									$("#fade-me").fadeOut().delay(300);
 									});
 							</script>
-						</ol>
-						<!-- <script src="script.js"></script> -->
-					</body>
-				</html>
+						</li>
+						<!-- Qus 18 -->
+						<li>
+							<p>
+								<strong>Qus: </strong>
+								How would you select all elements with class "my-class" using Javascript and Jquery?
+							</p>
+							<p>
+								<strong>Ans: </strong>
+								To select all elements with class "my-class", these are the examples:<br>
+								Javascript ex:<br>
+								document.getElementsByClassName("my-class")<br>
+								JQuery ex:<br>
+								document.querySelectorAll(".my-class")
+							</p>
+						</li>
+						<!-- Qus 19 -->
+						<li>
+							<p>
+								<strong>Qus:</strong>
+								Give an example of input field that takes phone number with format "123-456-7890"?
+							</p>
+							<p>
+								<strong>Ans:</strong>
+							</p>
+							<form id="login" onsubmit="process(event)">
+								<label>Phone Number:</label><br/>
+								<input class="phoneNumber" type="text" name="phone" id="phone" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+								<input type="submit" class="btn" value="Submit">
+							</form>
+							<script>
+								$('.phoneNumber').text(function(i, text) {
+								return text.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
+								});
+							</script>
+						</li>
+						<!-- Qus 20 -->
+						<li>
+							<p>
+								<strong>Qus: </strong>
+								Among HTML, CSS, Javascript, JQuery, what language did you like the best? State the reason.
+							</p>
+							<p>
+								<strong>Ans: </strong>
+								The language that I enoy the best is HTML. While I am really enjoying learning CSS, Javascript and JQuery and the possibilities they offer, HTML has become my favorite. I like that it is lightweight, beginner-friendly, and the foundation for any website. I like that it can easily intergrate with any other language. I will continue to improve my coding skills beyond this course, and learning HTML has allowed me to have a better understanding of how to build what I want to achieve.
+							</p>
+						</li>
+					</ol>
+					
+				</body>
+			</html>
