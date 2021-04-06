@@ -5,6 +5,9 @@
 		<meta name="viewport" content="width=device-width">
 		<title>Final</title>
 		<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+		
+		<script src="https://kit.fontawesome.com/d4dca06be3.js" crossorigin="anonymous"></script>
+		<!-- Get your code at fontawesome.com!! -->
 	</head>
 	<body>
 		<header class="site-header clearfix" id="site-header">
@@ -26,15 +29,13 @@
 							</header>
 							<main class="main clearfix" id="main">
 								<article class="main-site container">
-									
-									<section id="about">
 										<h2>About</h2>
 										<img src="img/girlsontruck.jpg" alt="Girls on Truck" class="right">
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae ligula placerat, volutpat odio in, pharetra velit. Praesent gravida gravida diam. Etiam iaculis varius sodales. Mauris justo lorem, tincidunt id arcu eu, semper vehicula sapien. Quisque id nibh ut turpis posuere placerat non nec velit. Fusce laoreet maximus hendrerit. Fusce id fringilla orci.</p>
 										<p>
 										Etiam elementum tortor vitae faucibus scelerisque. Sed non odio at odio pulvinar facilisis. Nullam a neque cursus massa consequat interdum. Praesent ac eros vitae arcu efficitur tincidunt. Aliquam dolor dui, congue vitae placerat a, sodales in mi. Proin feugiat interdum dui in hendrerit. Maecenas ultricies malesuada sapien eget tempus. Phasellus eget malesuada neque.</p>
 										
-									</section>
+									</article>
 									<section id="schedule">
 										<div class="schedule container">
 											<h2>Schedule</h2>
@@ -82,7 +83,6 @@
 											</table>
 										</div>
 									</section>
-								</article>
 								<article class="form-value-transfer clearfix">
 									<h2>Edit Profile</h2>
 									<form id="form" action="submit.php" method="post">
@@ -102,8 +102,8 @@
 											<label for="city">City</label>
 											<input type="text" name="city" id="city" required="" placeholder="Ottawa">
 										</p>
-											<p>
-											<label for="province">Province</label>		
+										<p>
+											<label for="province">Province</label>
 											<select id="province" name="province">
 												<!-- <option value="none">Select Province</option> -->
 												<option value="AB">Alberta</option>
@@ -128,15 +128,67 @@
 										<button type="submit">Submit</button>
 									</form>
 								</article>
-									<aside class="profile-card clearfix">
-									<div id="results">
+								<aside class="profile-card-container clearfix">
+									<div id="card">
+										
 										<h2>Profile Info</h2>
+										<i class="fas fa-user"></i>
 										<p><span id="name_result"></span></p>
 										<p><a href="#" id="email_result"></a></p>
 										<p><span id="address_result"></span></p>
 										<p><span id="city_result"></span></p>
 										<p><span id="province_result"></span>
-										<p><span id="pc_result"></span></p>	
+										<p><span id="pc_result"></span></p>
 									</div>
 								</aside>
 							</main>
+							<footer class="footer" id="footer">
+								<div class="footer-container"></div>
+								<section class="col-footer links">
+									<h4>Quick Links</h4>
+									<nav>
+										<ul>
+											<li>
+												<a href="schedule.html">Schedule</a>
+											</li>
+											<li>
+												<a href="about.html">About</a>
+											</li>
+											<li>
+												<a href="portfolio.html">Portfolio</a>
+											</li>
+											<li>
+												<a href="contact.html">Contact</a>
+											</li>
+										</ul>
+									</nav>
+								</section>
+								<section class="col-footer social">
+									<h4>Follow Us</h4>
+									
+									<nav class="social-container" id="social-container">
+										<ul>
+											<li>
+												<a href="http://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+											</li>
+											<li>
+												<a href="http://youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
+											</li>
+											
+											<li>
+												<a href="http://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+											</li>
+										</ul>
+									</nav>
+								</section>
+								<section class="col-footer company-info">
+									<h4>Address</h4>
+									<p>1385 Woodroffe Avenue</p>
+									<p>Nepean, ON K2G 1V8</p>
+									<p>Canada</p>
+								</section>
+								
+							</footer>
+							
+						</body>
+					</html>
