@@ -138,19 +138,18 @@ body{
 }
 
 /*Hamburger styling*/
-.ham {
+/*.ham {
 	float: right;
 }
 
-/*.ham {
+.ham {
 		
 		height: 15px;
 		margin:15px;
 		padding-top: 5px;
 		position: relative;
-		float: right;*/
-		/*this is used to create a pointer for element*/
-/*		cursor: pointer;
+		float: right;
+		cursor: pointer;
 	}
 
 	.ham, .ham:before, .ham:after {
@@ -193,4 +192,18 @@ body{
 	background: lightgreen;
 	border-bottom: 2px solid #121212;
 
+}*/
+/*Start of article styling*/
+
+.main-site{
+	float: left;
+	box-sizing: border-box;
+	max-width: 65%;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+.img{
+	float: right;
+	box-sizing: border-box;
+	padding: 35px;
 }
