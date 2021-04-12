@@ -68,7 +68,6 @@ Dark Grey - #454545;
 /*FONTS FOR WEBPAGE*/
 
 /*Font for Header*/
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 h1{
 	font-family: 'Dela Gothic One', cursive;
 	color: #72a9ae;
@@ -215,17 +214,11 @@ body{
 	margin-top: 40px;
 }
 /*This is the styling for the table*/
-/*.schedule-header{
-	padding: 20px;
-	word-wrap: all;
-}
-*/.schedule-container td, .schedule-container th {
-  border: 2px solid #656565;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+.schedule-container td, .schedule-container th {
+  border: 3px solid #656565;
+  padding: 20px 0 20px 0;
   box-sizing: border-box;
+  text-align: center;
 }
 .schedule-container tr:nth-child(even){
 	background-color: #efefef;
