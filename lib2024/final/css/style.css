@@ -226,7 +226,8 @@ body{
   padding-right: 20px;
   box-sizing: border-box;
 }
-.schedule-container tr:nth-child(even){background-color: #efefef;
+.schedule-container tr:nth-child(even){
+	background-color: #efefef;
 }
 
 th{
@@ -274,34 +275,33 @@ button{
 
 button:hover {
 	background: #B2D4CD;
+
 }
 /*END OF EDIT PROFILE STYLING*/
 /*BEGINNING OF PROFILE CARD*/
 .card{
 	background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 50%;
-  margin-right: 100px;
-  margin-top:20px;
-  margin-bottom: 20px;
-  text-align: center;
-  float: right;
-  padding: 30px 30px 40px;
-  box-sizing: border-box;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+	max-width: 50%;
+	margin-right: 100px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	text-align: center;
+	float: right;
+	padding: 30px 30px 40px;
+	box-sizing: border-box;
 }
     
-.fa-user-circle{
-	font-size: 700%;
-
+.fa-user-alt{
+	font-size: 600%;
+	transform: scale(1.5, 1.25);
+	border-radius: 50%;
+    border: 1px solid #72a9ae;
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    line-height: 150px;
 }
-	
-	/*margin: 50px;*/
-}
-/*.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: inherit;
-  text-align: center;
-}*/
 
 /*Footer styles*/
 
@@ -351,23 +351,17 @@ button:hover {
 
 .footer-col .social-links a{
 	display: inline-block;
-	height: 50px;
-	width: 50px;
-	/*background-color: rgba(255,255,255,0.2);*/
 	margin: 5px 10px;
-	text-align: center;
-	line-height: 50px;
-	border-radius: 50%;
+	text-align: center;	
 	float: left;
-	color: #ffffff;
 }
 .fa-twitter {
-  background: #1DA1F2;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  border-radius: 50%;
-  vertical-align: middle;
+	background: #1DA1F2;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	vertical-align: middle;
 }
 .fa-facebook-f{
 	background: #3b5998;
@@ -386,35 +380,3 @@ button:hover {
   	background: linear-gradient(0deg,#ff0000, #bb1f2c);
 }
 
-/*@media(max-width: 767px)*/
-/*.footer-col p{
-	color: white;
-}*
-/*footer {
-	background: #454545;*/
-	/*padding: 15px;*/
-/*	max-width: 100%;
-	box-sizing: border-box;
-	padding: 10px;
-}
-.col-footer{
-	color: white;
-	width: 31%;
-	display: inline-block;
-}*/
-/*a{
-	text-decoration: none;
-	color: white;
-}*/
-/*h4{
-	font-weight: 700;*/
-	/*padding: 5px;*/
-	/*display: inline-flex;*/
-}
-/*.social-container li{
-	display: inline-block;
-	padding: 8px;
-	align-content: center;
-}
-
-*/
