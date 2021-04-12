@@ -109,7 +109,10 @@ body{
 	padding: 20px;
 	box-sizing: border-box;
 }
-
+.main{
+	max-width: 1024px;
+	margin: 0 auto;
+}
 .main-nav{
 	background-color: #72a9ae;
 }
@@ -202,15 +205,13 @@ body{
 .main-site{
 	float: left;
 	box-sizing: border-box;
-	max-width: 65%;
-	padding: 30px;
-
+	width: 70%;
 }
 /*Image to the side of the main article*/
 .img{
 	float: right;
 	box-sizing: border-box;
-	padding: 30px;
+	width: 30%;
 	margin-top: 40px;
 }
 /*This is the styling for the table*/
@@ -237,7 +238,7 @@ th{
 table{
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 95%;
+	width: 100%;
 }
 /*END OF TABLE STYLING*/
 /*PROFILE FORMS STYLING BEGINNING*/
@@ -245,8 +246,8 @@ table{
 	padding: 5px;
 }
 .form-value-transfer{
-	margin: 20px;
-	min-width: 50%;
+	/*margin: 20px;*/
+	width: 45%;
 	float: left;
 }
 input[type=text], input[type=email], select, textarea {
@@ -279,21 +280,28 @@ button:hover {
 }
 /*END OF EDIT PROFILE STYLING*/
 /*BEGINNING OF PROFILE CARD*/
+aside{
+	width: 50%;
+	float: right;
+}
+.profile-info{
+	box-sizing: border-box;
+	padding: 10px 0 0 100px;
+}
 .card{
 	background-color: white;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-	max-width: 50%;
-	margin-right: 100px;
-	margin-top:20px;
+	width: 70%;
+	margin-right: 50px;	
 	margin-bottom: 20px;
 	text-align: center;
 	float: right;
-	padding: 30px 30px 40px;
+	padding: 20px 20px 30px;
 	box-sizing: border-box;
 }
     
 .fa-user-alt{
-	font-size: 600%;
+	font-size: 500%;
 	transform: scale(1.5, 1.25);
 	border-radius: 50%;
     border: 1px solid #72a9ae;
@@ -306,7 +314,7 @@ button:hover {
 /*Footer styles*/
 
 .container{
-	max-width: 90%;
+	width: 90%;
 	margin:auto;
 }
 .footer{
