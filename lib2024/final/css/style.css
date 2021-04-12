@@ -277,16 +277,31 @@ button:hover {
 }
 /*END OF EDIT PROFILE STYLING*/
 /*BEGINNING OF PROFILE CARD*/
-aside{
-	float: right;
-	max-width: 50%;
-	background-color: green
+.card{
+	background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 50%;
+  margin-right: 100px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  text-align: center;
+  float: right;
+  padding: 30px 30px 40px;
+  box-sizing: border-box;
 }
-.card {
+    
+.fa-user-circle{
+	font-size: 700%;
+
+}
+	
+	/*margin: 50px;*/
+}
+/*.card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: inherit;
   text-align: center;
-}
+}*/
 
 /*Footer styles*/
 
