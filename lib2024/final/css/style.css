@@ -359,20 +359,22 @@ aside{
 	float: left;
 }
 .fa-twitter {
-	background: #1DA1F2;
+	background: #55acee;
 	height: 50px;
 	width: 50px;
 	line-height: 50px;
 	border-radius: 50%;
 	vertical-align: middle;
+	color: #ffffff;
 }
 .fa-facebook-f{
-	background: #3b5998;
+	background: #3b5999;
   	height: 50px;
   	width: 50px;
   	line-height: 50px;
   	border-radius: 50%;
   	vertical-align: middle;
+  	color: #ffffff;
 }
 .fa-youtube {
   	height: 50px;
@@ -380,6 +382,7 @@ aside{
   	line-height: 50px;
   	border-radius: 50%;
   	vertical-align: middle;
-  	background: linear-gradient(0deg,#ff0000, #bb1f2c);
+  	background: #cd201f;
+  	color: #ffffff;
 }
 
