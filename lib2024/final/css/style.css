@@ -231,8 +231,7 @@ th{
 	font-weight: 700;
 }
 table{
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	width: 100%;
 }
 /*END OF TABLE STYLING*/
