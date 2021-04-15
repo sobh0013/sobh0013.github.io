@@ -1,39 +1,18 @@
-// const lightbox= document.createElement('img')
-// lightbox.id = 'lightbox'
-// document.body.appendChild(lightbox)
 
-// const images = document.querySelectorAll('img')
-// images.forEach(image =>{
-// 	image.addEventListener('click', e=> {
-// 		lightbox.classList.add('active')
-// 		const img = document.getElementsById('image').src = "img/girlsontruck.jpg";
-// 	})
-// })
+// Mobile Nav JavaScript
+document.querySelector('.ham').onclick = showHideMobileMenu;
 
-// lightbox.addEventListener('click', e=> {
-// 	if (e.target !== e.currentTarget) return
-// 	lightbox.classList.remove('active')
-// })
+function showHideMobileMenu() {
 
-jQuery(document).ready(function($) {
-     
-  $('.lightbox_trigger').click(function(e) {
-     
-	
-e.preventDefault();
-var image_href = $(this).attr("href");
-if ($('#lightbox').length > 0) { // #lightbox exists
-     
-    //insert img tag with clicked link's href as src value
-    $('#content').html('<img src="' + image_href + '" />');
-     
-    //show lightbox window - you can use a transition here if you want, i.e. .show('fast')
-    $('#lightbox').show();
+	var mobileNav = document.querySelector('.mobile-nav');
+
+	// in a if statement == is used to compare two value, if the values matches then the condition is true
+	// an if statement is followed by an else statement which runs when the given condition is not met
+	if(mobileNav.style.display=="block") {
+		mobileNav.style.display="none";
+	} else {
+		mobileNav.style.display="block";
+	}
 }
-$('body').on('click', '#lightbox', function() {
-    $('#lightbox').hide();
-});
- 
-});
- 
-});
+
+

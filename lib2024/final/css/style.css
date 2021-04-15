@@ -68,7 +68,7 @@ Dark Grey - #454545;
 /*================*/
 
 /*FOR FLUID STYLING*/
- .col-main, .col-footer, img {
+.col-main, .col-footer, img {
 	width:100%;
 }
 /*TYPOGRAPHY*/
@@ -87,7 +87,7 @@ h2{
 
 @font-face {
 	font-family: "Eurocine";
-	src: url("/fonts/Eurocine-Regular.otf") format("otf"),
+	src: url("/fonts/Eurocine-Regular.otf") format("otf")
 }
 
 body{ 
@@ -129,7 +129,6 @@ body{
 .main-nav li a {
 	display: block;
 	color: black;
-	text-align: center;
 	padding: 14px 30px;
 	text-decoration: none;
 	transition: all .2s ease-in-out;
@@ -145,9 +144,6 @@ body{
 
 
 .ham {
-	float: right;
-		background: #72a9ae;
-		/*width: 100%;*/
 	height: 15px;
 	margin:15px;
 	padding-top: 5px;
@@ -166,13 +162,11 @@ body{
 	content: "";
 	display:block;
 	position: absolute;
-	background: black;
 }
 
 .ham:after {
 	content: "";
 	display: block;
-	background: black;
 	position: absolute;
 	bottom: 0;
 }
@@ -194,24 +188,23 @@ body{
 	box-sizing: border-box;
 	width:100%;
 	padding: 10px;
-	background: lightgreen;
+	background: #72a9ae;
 	border-bottom: 2px solid #121212;
-
 }
 /*NAVIGATION STYLING END*/
 /*======================*/
 /*IMAGE STYLING BEGINS*/
-img {
+/*img {
 	opacity: 0.5;
 	transition: all ease 0.3s;
 }
 
 img:hover{
 	opacity: 1;
-	/*box-shadow: vertical-offset horizontal offset blur color*/
+	box-shadow: vertical-offset horizontal offset blur color
 	box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
 	cursor: pointer;
-}
+}*/
 /*IMAGE STYLING END*/
 /*==================*/
 /*TABLE STYLING*/
@@ -253,10 +246,9 @@ input[type=text], input[type=email], select, textarea {
 }
 
 label {
-	padding: 12px 12px 12px 5px;
+	padding: 5px 10px 10px 5px;
 	float: left;
 	box-sizing: border-box;
-	display: inline-block;
 }
 
 button{
@@ -265,7 +257,7 @@ button{
 	cursor: pointer;
 	float: right;
 	box-sizing: border-box;
-	margin-right: 30px;
+	margin-right: 40px;
  }
 
  button:hover {
@@ -302,6 +294,15 @@ button{
     line-height: 125px;
     margin-bottom: 10px;
 }
+
+.fa-envelope{
+	font-size: 200%;
+	color: #72a9ae;
+}
+.fa-envelope:hover{
+	color: #2e6b70;
+	cursor: pointer;
+}
 /*END OF PROFILE CARD STYLING*/
 /*===========================*/
 /*BEGINNING OF FOOTER STYLING*/
@@ -319,7 +320,6 @@ button{
 .row{
 	display: flex;
 	flex-wrap: wrap;
-	float: auto;
 }
 
 .footer-col{
@@ -329,7 +329,7 @@ button{
 	
 }
 
-.footer-col h4{
+h4{
 	color: white;
 	font-weight: 700;
 	margin-bottom: 15px;
@@ -398,7 +398,7 @@ button{
 /*======================*/
 /*DESKTOP STYLING BEGINS*/
 @media only screen and (min-width: 768px) {
-		header, main, footer {
+		header, main, footer{
 
 		max-width: 1024px;
 		margin: 0 auto;
@@ -436,13 +436,11 @@ button{
 		content: "";
 		display:block;
 		position: absolute;
-		background: black;
 	}
 
 	.ham:after {
 		content: "";
 		display: block;
-		background: black;
 		position: absolute;
 		bottom: 0;
 	}
@@ -475,6 +473,7 @@ button{
 	    margin-left: 110px;
 	    width: 50%;
 	}
+
 	button{
  		padding: 5px;
   		margin-right: 125px;
@@ -485,14 +484,15 @@ button{
 		width: 50%;
 		float: right;
 	}
+
 	.profile-info{
 		box-sizing: border-box;
 		padding: 10px 0 0 100px;
 	}
+
 	.results{
-		width: 70%;
-		margin-right: 50px;	
-		margin-bottom: 20px;
+		max-width: 70%;
+		margin: 20px 50px 20px 0px;
 	}
 /*END OF PROFILE CARD STYLINGS*/
 
@@ -504,7 +504,8 @@ button{
 	}
 
 	.footer-col{
-		width: 31%;
+		max-width: 31%;
 		padding: 0 10px;
 		margin-bottom: 10px;
 	}
+}
