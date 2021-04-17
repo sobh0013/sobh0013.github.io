@@ -88,17 +88,15 @@ h2 {
 	color: #72a9ae;
 }
 
-@font-face {
-	font-family: "Eurocine";
-	src: url("/fonts/Eurocine-Regular.otf") format("otf");
-}
 
 body {
-	font-family: "Eurocine", sans-serif;
+	font-family: 'bitstream_vera_sansroman';
 	padding: 0;
 	margin: 0;
 	background-image: url(../img/triangle-mosaic.png);
 	font-size: 1rem;
+	font-weight: normal;
+    font-style: normal;
 }
 /*TYPOGRAPHY END*/
 /*============================*/
