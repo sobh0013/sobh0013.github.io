@@ -98,12 +98,16 @@ body {
 	font-weight: normal;
     font-style: normal;
 }
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
 /*TYPOGRAPHY END*/
 /*============================*/
 
 /*HEADER STYLES*/
 .logo {
-	/*padding: 20px 0px 20px 0px;*/
 	margin: 20px;
 	box-sizing: border-box;
 	width: 50%;
@@ -133,7 +137,7 @@ body {
 .main-nav li a {
 	display: block;
 	color: black;
-	padding: 14px 30px;
+	padding: 14px 20px;
 	text-decoration: none;
 	transition: all .2s ease-in-out;
 }
@@ -194,18 +198,6 @@ body {
 }
 /*NAVIGATION STYLING END*/
 /*======================*/
-/*IMAGE STYLING BEGINS*/
-/*img {
-	opacity: 0.5;
-	transition: all ease 0.3s;
-}
-
-img:hover{
-	opacity: 1;
-	box-shadow: vertical-offset horizontal offset blur color
-	box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
-	cursor: pointer;
-}*/
 /*OVERLAY STYING*/
 .overlay-container {
 	display: none;
@@ -280,7 +272,7 @@ img:hover{
 
 .img{
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 30px;
 }
 /*ARTICLE STYLING END*/
 /*TABLE STYLING*/
@@ -321,7 +313,7 @@ input[type=text], input[type=email], select, textarea {
 	resize: vertical;
 	box-sizing: border-box;
 	display: table;
-	margin-left: 100px;
+	margin-left: 110px;
 	width: 75%;
 }
 
@@ -364,6 +356,7 @@ button:hover {
 	box-sizing: border-box;
 	word-wrap: break-word;
 }
+
 /*THIS IS FOR THE PROFILE PICTURE*/
 .fa-user-alt {
 	font-size: 600%;
@@ -480,8 +473,6 @@ h4 {
 	color: #ffffff;
 }
 /*END OF FOOTER STYLINGS*/
-
-
 /*======================*/
 /*DESKTOP STYLING BEGINS*/
 

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 	<head>
+		<!-- Final Assignment for Professor Winner -->
 		<title>Final</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-		<!-- This link is for my google font that relates to my CSS -->
 		<!-- Link to my style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -15,8 +15,8 @@
 		<!-- This will be for my logo -->
 		<header class="site-header clearfix" id="site-header">
 			<h1 class="logo">MY LOGO</h1>
+			<!-- My main navigation bar -->
 			<nav class="main-nav desktop-nav">
-				<!-- My main navigation bar -->
 				<ul class="main-nav clearfix">
 					<li> <a href="home.html">HOME</a> </li>
 					<li> <a href="about.html">ABOUT</a> </li>
@@ -25,8 +25,8 @@
 					<li> <a href="contact.html">CONTACT</a> </li>
 				</ul>
 			</nav>
+			<!-- Hambuger menu for mobile -->
 			<div class="ham"></div>
-			<!-- mobile navigation start -->
 			<div class="mobile-nav-container clearfix">
 				<nav class="main-nav-container mobile-nav">
 					<ul class="main-nav">
@@ -39,22 +39,22 @@
 				</nav>
 			</div>
 		</header>
+		<!-- Beginning of main content -->
 		<main class="main clearfix" id="main">
-			<!-- Main text article -->
 			<article class="main-site content clearfix">
 				<section class="main-content">
 					<h2 class="about">ABOUT</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae ligula placerat, volutpat odio in, pharetra velit. Praesent gravida gravida diam. Etiam iaculis varius sodales. Mauris justo lorem, tincidunt id arcu eu, semper vehicula sapien. Quisque id nibh ut turpis posuere placerat non nec velit. Fusce laoreet maximus hendrerit. Fusce id fringilla orci.Vestibulum nec luctus metus, et scelerisque lorem. Fusce imperdiet nisl et massa cursus efficitur a quis mi. Pellentesque nec massa at erat consequat congue. Sed ut nibh tempus eros lobortis vulputate convallis ut tortor.</p>
-					<br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae ligula placerat, volutpat odio in, pharetra velit. Praesent gravida gravida diam. Etiam iaculis varius sodales. Mauris justo lorem, tincidunt id arcu eu, semper vehicula sapien. Quisque id nibh ut turpis posuere placerat non nec velit. Fusce laoreet maximus hendrerit. Fusce id fringilla orci.Vestibulum nec luctus metus, et scelerisque lorem. Fusce imperdiet nisl et massa cursus efficitur a quis mi.</p>
+					<br/>
 					<p> Etiam elementum tortor vitae faucibus scelerisque. Sed non odio at odio pulvinar facilisis. Nullam a neque cursus massa consequat interdum. Praesent ac eros vitae arcu efficitur tincidunt. Aliquam dolor dui, congue vitae placerat a, sodales in mi. Proin feugiat interdum dui in hendrerit. Maecenas ultricies malesuada sapien eget tempus. Phasellus eget malesuada neque. Mauris nec mauris id nibh molestie lobortis a vel erat. Morbi quis pellentesque leo.</p>
 				</section>
 				<!-- Image to the side of the article -->
-				<div class="img" id="image"> <img src="img/girlsontruck.jpg" alt="Girls Sitting on Truck" class="right"> </div>
+				<div class="img" id="image"> <img src="img/girlsontruck.jpg" alt="Girls Sitting on Truck" class="right"></div>
 			</article>
+			<!-- HTML for my table -->
 			<section class="schedule clearfix" id="schedule">
 				<div class="schedule-container">
 					<h2 class="schedule-header">SCHEDULE</h2>
-					<!-- This will be for my table -->
 					<table class="schedule">
 						<tr>
 							<th>TIME</th>
@@ -142,52 +142,55 @@
 					<button type="submit">SUBMIT</button>
 				</form>
 			</section>
+			<!-- For my profile card for the results input -->
 			<aside class="profile-card-container clearfix">
 				<h2 class="profile-info">PROFILE INFO</h2>
 				<div id="results"> <i class="fas fa-user-alt"></i>
-					<p class="removeMe">John Doe<span id="name_result"></span></p>
-					<p class="removeMe">JohnDoe@algonquincollege.com
-						<a href="#" id="email_result"></a>
-					</p>
-					<p class="removeMe">1385 Woodroffe Ave<span id="address_result"></span> ,Nepean<span id="city_result"></span></p>
-					<p class="removeMe">ON<span id="province_result"></span> K2G 1V8<span id="pc_result"></span></p> <i class="far fa-envelope"></i> </div>
-				</aside>
-			</main>
-			<!-- Footer start -->
-			<footer class="footer" id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="footer-col">
-							<h4>QUICK LINKS</h4>
+					<p><span id="name_result">John Doe</span></p>
+					<p> <a href="#" id="email_result">JohnDoe@algonquincollege.com</a> </p>
+					<p><span id="address_result">1385 Woodroffe Ave</span>,<span id="city_result">Nepean</span></p>
+					<p><span id="province_result">ON</span> <span id="pc_result">K2G 1V8</span></p> <i class="far fa-envelope"></i>
+				</div>
+			</aside>
+		</main>
+		<!-- Footer start -->
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col">
+						<!-- Links on the left of the footer -->
+						<h4>QUICK LINKS</h4>
+						<ul>
+							<li> <a href="schedule.html">SCHEDULE</a> </li>
+							<li> <a href="about.html">ABOUT</a> </li>
+							<li> <a href="portfolio.html">PORTFOLIO</a> </li>
+							<li> <a href="contact.html">CONTACT</a> </li>
+						</ul>
+					</div>
+					<!-- Social Links -->
+					<div class="footer-col">
+						<h4 class="social-header">FOLLOW US</h4>
+						<div class="social-links">
 							<ul>
-								<li> <a href="schedule.html">SCHEDULE</a> </li>
-								<li> <a href="about.html">ABOUT</a> </li>
-								<li> <a href="portfolio.html">PORTFOLIO</a> </li>
-								<li> <a href="contact.html">CONTACT</a> </li>
+								<li> <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> </li>
+								<li> <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a> </li>
+								<li> <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> </li>
 							</ul>
 						</div>
-						<div class="footer-col">
-							<h4 class="social-header">FOLLOW US</h4>
-							<div class="social-links">
-								<ul>
-									<li> <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> </li>
-									<li> <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a> </li>
-									<li> <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> </li>
-								</ul>
-							</div>
-						</div>
-						<div class="footer-col">
-							<h4>ADDRESS</h4>
-							<p>1385 Woodroffe Avenue</p>
-							<p>Nepean, ON K2G 1V8</p>
-							<p>Canada</p>
-						</div>
+					</div>
+					<!-- Address on the right of the footer -->
+					<div class="footer-col">
+						<h4>ADDRESS</h4>
+						<p>1385 Woodroffe Avenue</p>
+						<p>Nepean, ON K2G 1V8</p>
+						<p>Canada</p>
 					</div>
 				</div>
-			</footer>
-			<!-- JQUERY AND JAVASCRIPT LINKS -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-			<script src="js/scripts.js"></script>
-			<!-- Created by Krystal Sobhie -->
-		</body>
-	</html>
+			</div>
+		</footer>
+		<!-- JQUERY AND JAVASCRIPT LINKS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<!-- Created by Krystal Sobhie 2021-04-10 -->
+	</body>
+</html>

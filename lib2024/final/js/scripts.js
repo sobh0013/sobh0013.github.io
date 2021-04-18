@@ -2,8 +2,6 @@ window.onload = init;
 
 function init() {
 
-alert('I am linked');
-
 // Mobile Nav JavaScript
 document.querySelector('.ham').onclick = showHideMobileMenu;
 
@@ -19,7 +17,7 @@ function showHideMobileMenu() {
 		mobileNav.style.display="block";
 	}
 }
-
+// THIS CODE WILL BE FOR MY PROFILE CARD 
 	$('#form').submit(function (e) {
 		// e.preventDefualt to avoid the form being submitted to page specified in action attribute 
    		 e.preventDefault();
@@ -43,4 +41,4 @@ function showformValues(form){
 }
 }
 
-
+// CREATED BY KRYSTAL SOBHIE
