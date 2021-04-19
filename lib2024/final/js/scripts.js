@@ -37,7 +37,7 @@ function showformValues(form){
 			if(field.name=="email"){
 			$("#results").find("#"+field.name+"_result").attr("href", "mailto:"+field.value);
 		}
-	});				
+	});		
 }
 }
 
