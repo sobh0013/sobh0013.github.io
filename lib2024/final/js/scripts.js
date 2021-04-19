@@ -36,6 +36,7 @@ function init() {
 			$("#results").find("#" + field.name + "_result").text(field.value);
 			if (field.name == "email") {
 				$("#results").find("#" + field.name + "_result").attr("href", "mailto:" + field.value);
+				$("#results").find("#" + field.name + "_result_2").attr("href", "mailto:" + field.value);
 			}
 		});
 	}
