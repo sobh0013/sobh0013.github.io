@@ -383,7 +383,7 @@ button:hover {
 /*BEGINNING OF FOOTER STYLING*/
 .footer {
 	background-color: #454545;
-	padding: 15px 0;
+	padding-top: 15px;
 	box-sizing: border-box;
 }
 
@@ -404,7 +404,7 @@ button:hover {
 }
 
 h4 {
-	color: white;
+	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 15px;
 	text-align: center;
@@ -435,7 +435,7 @@ h4 {
 
 .footer-col .social-links a {
 	display: inline-block;
-	margin: 0px 30px 10px 0px;
+	margin: 0px 20px 10px 0px;
 	float: right;
 }
 
@@ -479,6 +479,12 @@ h4 {
 	header, main, footer {
 		max-width: 1024px;
 		margin: 0 auto;
+	}
+
+	.header, .footer-box{
+	 	padding: 20px 0 70px 0;
+  		background: #ffffff;
+  		box-sizing: border-box;
 	}
 
 /*NAVIGATION STLYLING*/
